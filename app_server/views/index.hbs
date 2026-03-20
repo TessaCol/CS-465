@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+		}
+
+		.trip {
+			margin-bottom: 30px;
+		}
+
+			.trip img {
+				width: 200px;
+				height: auto;
+			}
+
+		hr {
+			margin: 20px 0;
+		}
+	</style>
+</head>
+<body>
+	<h1>{{title}}</h1>
+
+	{{#each trips}}
+	<div class="trip">
+		<img src="{{image}}" alt="{{name}}">
+		<h2>{{name}}</h2>
+		<p><strong>Resort:</strong> {{resort}}</p>
+		<p><strong>Length:</strong> {{length}}</p>
+		<p><strong>Price:</strong> {{perPerson}}</p>
+		<p>{{description}}</p>
+	</div>
+	<hr>
+	{{/each}}
+</body>
+</html>
