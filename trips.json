@@ -1,0 +1,16 @@
+[
+	{
+		"title": "Summer Vacation",
+		"country": "Italy",
+		"startDate": "2026-07-01",
+		"endDate": "2026-07-14",
+		"activities": [ "Sightseeing", "Wine Tasting", "Beach" ]
+	},
+	{
+		"title": "Winter Adventure Updated",
+		"country": "Canada",
+		"startDate": "2026-12-16",
+		"endDate": "2026-12-26",
+		"activities": [ "Skiing", "Snowboarding", "Ice Skating" ]
+	}
+]

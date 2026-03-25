@@ -20,6 +20,10 @@
   "homepage": "https://github.com/TessaCol/CS-465#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "hbs": "^4.2.0"
+    "hbs": "^4.2.0",
+    "mongoose": "^9.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^10.1.0"
   }
 }

@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Dunge\\Documents\\CS-465\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\testConnection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:node_modules\\mongoose\\lib\\helpers\\model\\testConnection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\db.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:node_modules\\mongoose\\lib\\helpers\\model\\db.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\populate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:populate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\trips.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trips.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\trip.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:node_modules\\mongoose\\lib\\helpers\\model\\trip.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +47,73 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "app.js",
-              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\app.js",
-              "RelativeDocumentMoniker": "app.js",
-              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\app.js",
-              "RelativeToolTip": "app.js",
+              "Title": "testConnection.js",
+              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\testConnection.js",
+              "RelativeDocumentMoniker": "node_modules\\mongoose\\lib\\helpers\\model\\testConnection.js",
+              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\testConnection.js",
+              "RelativeToolTip": "node_modules\\mongoose\\lib\\helpers\\model\\testConnection.js",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-24T18:21:58.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "db.js",
+              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\db.js",
+              "RelativeDocumentMoniker": "node_modules\\mongoose\\lib\\helpers\\model\\db.js",
+              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\db.js",
+              "RelativeToolTip": "node_modules\\mongoose\\lib\\helpers\\model\\db.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-03-20T19:16:21.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T18:09:12.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "server.js",
+              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\server.js",
+              "RelativeDocumentMoniker": "server.js",
+              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\server.js",
+              "RelativeToolTip": "server.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-24T17:37:11.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "trips.json",
+              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\trips.json",
+              "RelativeDocumentMoniker": "trips.json",
+              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\trips.json",
+              "RelativeToolTip": "trips.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T17:36:22.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "trip.js",
+              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\trip.js",
+              "RelativeDocumentMoniker": "node_modules\\mongoose\\lib\\helpers\\model\\trip.js",
+              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\node_modules\\mongoose\\lib\\helpers\\model\\trip.js",
+              "RelativeToolTip": "node_modules\\mongoose\\lib\\helpers\\model\\trip.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-24T17:35:38.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "populate.js",
+              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\populate.js",
+              "RelativeDocumentMoniker": "populate.js",
+              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\populate.js",
+              "RelativeToolTip": "populate.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-24T17:22:47.73Z"
             }
           ]
         }
