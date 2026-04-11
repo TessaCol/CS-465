@@ -1,0 +1,24 @@
+<div class="card mb-3">
+  <div class="card-body">
+
+    <h5 class="card-title">{{ trip.title }}</h5>
+
+    <p><strong>Country:</strong> {{ trip.country }}</p>
+
+    <p>
+      <strong>Dates:</strong>
+      {{ trip.startDate | date:'shortDate' }} -
+      {{ trip.endDate | date:'shortDate' }}
+    </p>
+
+    <p *ngIf="trip.activities?.length">
+      <strong>Activities:</strong>
+      {{ trip.activities.join(', ') }}
+    </p>
+
+    <button class="btn btn-danger btn-sm" (click)="deleteTrip(trip._id)">
+      Delete
+    </button>
+
+  </div>
+</div>

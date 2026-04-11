@@ -1,0 +1,52 @@
+<div class="card p-3 mb-4">
+  <h5>Add New Trip</h5>
+
+  <div class="row g-2">
+
+    <div class="col">
+      <input class="form-control" placeholder="Title" [(ngModel)]="newTrip.title">
+    </div>
+
+    <div class="col">
+      <input class="form-control" placeholder="Country" [(ngModel)]="newTrip.country">
+    </div>
+
+    <div class="col">
+      <input class="form-control" type="date" [(ngModel)]="newTrip.startDate">
+    </div>
+
+    <div class="col">
+      <input class="form-control" type="date" [(ngModel)]="newTrip.endDate">
+    </div>
+
+    <div class="col">
+      <input class="form-control"
+             placeholder="Activities (comma separated)"
+             [(ngModel)]="newTrip.activities">
+    </div>
+
+    <div class="col-auto">
+      <button class="btn btn-primary" (click)="addTrip()">Add</button>
+    </div>
+
+  </div>
+</div>
+
+<div *ngFor="let trip of trips" class="card mb-3 p-3">
+
+  <h5>{{ trip.title }}</h5>
+
+  <p><strong>Country:</strong> {{ trip.country }}</p>
+
+  <p><strong>Start:</strong> {{ trip.startDate | date }}</p>
+
+  <p><strong>End:</strong> {{ trip.endDate | date }}</p>
+
+  <p><strong>Activities:</strong> {{ trip.activities?.join(', ') }}</p>
+
+  <button class="btn btn-danger btn-sm"
+          (click)="deleteTrip(trip._id)">
+    Delete
+  </button>
+
+</div>
