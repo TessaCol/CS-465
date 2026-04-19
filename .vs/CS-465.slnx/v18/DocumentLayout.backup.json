@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Dunge\\Documents\\CS-465\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\trips.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trips.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\app_api\\middleware\\verifyJWT.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app_api\\middleware\\verifyJWT.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\models\\trip.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app_server\\models\\trip.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\routes\\trip.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app_server\\routes\\trip.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\app_api\\routes\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app_api\\routes\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\models\\db.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app_server\\models\\db.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,67 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "trips.json",
-              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\trips.json",
-              "RelativeDocumentMoniker": "trips.json",
-              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\trips.json",
-              "RelativeToolTip": "trips.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-25T21:12:16.054Z",
+              "DocumentIndex": 1,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\app_api\\routes\\index.js",
+              "RelativeDocumentMoniker": "app_api\\routes\\index.js",
+              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\app_api\\routes\\index.js",
+              "RelativeToolTip": "app_api\\routes\\index.js",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwDEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-19T03:25:45.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "trip.js",
-              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\models\\trip.js",
-              "RelativeDocumentMoniker": "app_server\\models\\trip.js",
-              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\models\\trip.js",
-              "RelativeToolTip": "app_server\\models\\trip.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "verifyJWT.js",
+              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\app_api\\middleware\\verifyJWT.js",
+              "RelativeDocumentMoniker": "app_api\\middleware\\verifyJWT.js",
+              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\app_api\\middleware\\verifyJWT.js",
+              "RelativeToolTip": "app_api\\middleware\\verifyJWT.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-03-25T18:51:26.495Z",
+              "WhenOpened": "2026-04-19T03:14:19.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "trip.js",
-              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\routes\\trip.js",
-              "RelativeDocumentMoniker": "app_server\\routes\\trip.js",
-              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\routes\\trip.js",
-              "RelativeToolTip": "app_server\\routes\\trip.js",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwEUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-03-25T18:33:14.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "app.js",
               "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\app.js",
               "RelativeDocumentMoniker": "app.js",
               "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\app.js",
               "RelativeToolTip": "app.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-03-25T15:37:33.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "db.js",
-              "DocumentMoniker": "C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\models\\db.js",
-              "RelativeDocumentMoniker": "app_server\\models\\db.js",
-              "ToolTip": "C:\\Users\\Dunge\\Documents\\CS-465\\app_server\\models\\db.js",
-              "RelativeToolTip": "app_server\\models\\db.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-03-25T15:24:43.153Z",
+              "WhenOpened": "2026-04-19T03:09:24.554Z",
               "EditorCaption": ""
             }
           ]

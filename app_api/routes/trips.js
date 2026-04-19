@@ -1,35 +1,12 @@
-const mongoose = require('mongoose');
-const Trip = mongoose.model('trips');
+const express = require('express');
+const router = express.Router();
 
-const tripsList = async (req, res) => {
-    try {
-        const trips = await Trip.find();
-        res.json(trips);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-};
+const verifyJWT = require('../middleware/verifyJWT');
+const tripsController = require('../controllers/tripsController');
 
-const tripsFindById = async (req, res) => {
-    try {
-        const trip = await Trip.findById(req.params.tripId);
-        res.json(trip);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-};
+router.get('/trips', tripsController.tripsList);
+router.get('/trips/:tripId', tripsController.tripsFindById);
 
-const tripsCreate = async (req, res) => {
-    try {
-        const trip = await Trip.create(req.body);
-        res.status(201).json(trip);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-};
+router.post('/trips', verifyJWT, tripsController.tripsCreate);
 
-module.exports = {
-    tripsList,
-    tripsFindById,
-    tripsCreate
-};
+module.exports = router;

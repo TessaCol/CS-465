@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+</head>
+<body>
+
+    <h2>Admin Login</h2>
+
+    
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <br><br>
+        <input type="password" id="password" placeholder="Password" required>
+        <br><br>
+        <button type="submit">Login</button>
+    </form>
+
+    <p id="message"></p>
+
+    <hr>
+
+    <button id="getTripsBtn">Get Trips</button>
+
+    <h3>Trips</h3>
+    <div id="tripList"></div>
+
+    <script>
+        console.log("PAGE SCRIPT LOADED");
+
+        
+        document.getElementById("loginForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+
+            try {
+                const res = await fetch("http://localhost:3000/api/login", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        username: document.getElementById("username").value,
+                        password: document.getElementById("password").value
+                    })
+                });
+
+                const data = await res.json();
+                console.log("LOGIN RESPONSE:", data);
+
+                if (data.token) {
+                    localStorage.setItem("token", data.token);
+                    document.getElementById("message").innerText = "Login successful!";
+                } else {
+                    document.getElementById("message").innerText = "Login failed.";
+                }
+
+            } catch (err) {
+                console.log("LOGIN ERROR:", err);
+                document.getElementById("message").innerText = "Error logging in.";
+            }
+        });
+
+        document.getElementById("getTripsBtn").addEventListener("click", async () => {
+            console.log("GET TRIPS CLICKED");
+
+            const token = localStorage.getItem("token");
+            console.log("TOKEN:", token);
+
+            if (!token) {
+                document.getElementById("message").innerText = "Please log in first.";
+                return;
+            }
+
+            try {
+                const res = await fetch("http://localhost:3000/api/trips", {
+                    method: "GET",
+                    headers: {
+                        Authorization: "Bearer " + token
+                    }
+                });
+
+                const data = await res.json();
+                console.log("TRIPS:", data);
+
+                const container = document.getElementById("tripList");
+                container.innerHTML = "";
+
+                data.forEach(trip => {
+                    const div = document.createElement("div");
+                    div.innerHTML = `
+                            <p><b>${trip.title}</b></p>
+                            <p>Destination: ${trip.destination}</p>
+                            <p>Country: ${trip.country}</p>
+                            <hr>
+                        `;
+                    container.appendChild(div);
+                });
+
+            } catch (err) {
+                console.log("ERROR:", err);
+                document.getElementById("message").innerText = "Failed to load trips.";
+            }
+        });
+    </script>
+
+</body>
+</html>
