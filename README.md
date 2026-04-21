@@ -1,5 +1,7 @@
 # CS-465
+
 #Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
+
 The Express HTML side was more simple and server rendered, where pages reload each time and the backend sends the data. The SPA with Angular was more dynamic because it updates the page without reloading and uses components. JavaScript is used in both, but Angular organizes it better and makes it easier to manage larger features.
 
 #Why did the backend use a NoSQL MongoDB database?
